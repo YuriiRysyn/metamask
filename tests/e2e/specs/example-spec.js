@@ -47,14 +47,14 @@ describe("Wallet tests", () => {
       cy.visit("/").then
       it("Connect", () => {
         // cy.visit("http://localhost:3001/")
-        cy.contains("Connect").click()
+        cy.contains("+").click()
       })
 
       it("Market", () => {
         // cy.visit("http://localhost:3001/")
         // cy.visit("/").then
 
-        cy.contains("Market").click()
+        cy.contains("+").click()
       })
       // cy.setupMetamask(
       //   process.env.PRIVATE_KEY,
